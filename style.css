@@ -12,7 +12,7 @@ body{
     background-color: black;
 }
 .container{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 1280px;
     color: white;
     margin: 0 auto;
@@ -215,7 +215,7 @@ input:hover{
 }
 .card{
     border: 2px solid gray;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: left;
     height: auto;
     width: auto;
@@ -223,7 +223,7 @@ input:hover{
     transition: 0.3s ease-in-out;
 }
 .card:hover{
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 25px blue;
 }
 .card i{
     font-size: 1.5rem;
@@ -236,6 +236,82 @@ input:hover{
 .card p{
     font-size: 1.25rem;
     color: grey;
+}
+
+
+
+
+/* skill section */
+
+#skill .container{
+    height: 100vh;
+}
+
+.myskill h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.skill_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.read_btn{
+    border: 1px solid black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-top: 0.5rem;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.read_btn:hover{
+    background-color: black;
+    color: crimson;
+    box-shadow: 0 0 25px blue;
+}
+
+
+
+
+/* contact section */
+
+#contact .container{
+    height: 60vh;
+}
+.contact_container h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem;
+}
+.contact_way{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem;
+}
+.contact_way a i{
+    color: crimson;
+    font-size: 3rem;
+    transition: 0.3s ease-in-out;
+}
+.contact_way a i:hover{
+    color: white;
+    box-shadow: 0 0 25px crimson;
+}
+
+
+
+/* footer section */
+
+footer .container{
+    text-align: center;
 }
 
 
