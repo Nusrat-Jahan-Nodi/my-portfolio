@@ -40,7 +40,7 @@ nav .container{
     color: crimson;
     font-weight:800;
     font-size: 1.5rem;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .nav_logo:hover{
     color: white;
@@ -55,7 +55,7 @@ nav .container{
     margin: 0.5rem;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .nav_links a:hover{
     color: crimson;
@@ -71,7 +71,7 @@ nav .container{
     background-color: crimson;
     padding: 15px;
     border-radius: 20px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .subscribe_btn:hover{
@@ -132,11 +132,69 @@ input:hover{
     background-color: crimson;
     padding: 5px;
     /* border-radius: 25px; */
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 .start_btn:hover{
     background-color: black;
     color: crimson;
     box-shadow: 0 0 25px blue;
+}
+
+
+
+
+
+/* about */
+
+#about .container{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.img{
+    box-shadow: 0 0 25px deeppink;
+}
+
+.about_content h1{
+     font-size: 4rem;
+}
+.about_content h2{
+    font-size: 2rem;
+}
+.about_content p{
+    font-size: 1.5rem;
+}
+.talk_btn{
+    border: 1px solid black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.talk_btn:hover{
+    background-color: black;
+    color: crimson;
+    box-shadow: 0 0 25px blue;
+}
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 321px) {
+    #hero .container{
+        flex-direction: column;
+        gap: 4rem;
+    } 
+     .hero_img{
+        width: 30%;
+    }
 }
