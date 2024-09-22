@@ -321,12 +321,65 @@ footer .container{
 
 /* media query */
 
-@media screen and (max-width: 321px) {
-    #hero .container{
-        flex-direction: column;
-        gap: 4rem;
-    } 
-     .hero_img{
-        width: 30%;
+/* for small device */
+@media screen and (max-width: 576px) {
+
+
+    nav .container{
+        justify-content: center;
+        text-align: center;
     }
+    #hero .container,
+    .card_container
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #about .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #service .container,
+    #about .container,
+    #skill .container,
+    #contact .container
+    {
+        height: auto;
+    }
+    .skill_cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+
+    .hero_content h1{
+        font-size: 2rem;
+    }
+    .about_content h1{
+        font-size: 2.5rem;
+    }
+    .about_content h2{
+        font-size: 2rem;
+    }
+    .about_content{
+        text-align: center;
+    }
+    .service_tittle h2{
+        font-size: 2.5rem;
+    }
+    .myskill h2{
+        font-size: 2.5rem;
+    }
+    .card h3{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+/* for tablet */
+
+@media screen and (max-width: 992px) {
+    
 }
