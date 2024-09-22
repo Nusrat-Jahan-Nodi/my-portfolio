@@ -16,7 +16,7 @@ body{
     width: 1280px;
     color: white;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 a{
     text-decoration: none;
@@ -151,6 +151,7 @@ input:hover{
     display: flex;
     align-items: center;
     gap: 8rem;
+    height: 100vh;
 }
 
 .img{
@@ -182,6 +183,61 @@ input:hover{
     color: crimson;
     box-shadow: 0 0 25px blue;
 }
+
+
+
+
+
+/* service section */
+
+#service .container{
+    height: 100vh;
+}
+.service_tittle h2{
+    /* border: 2px solid red; */
+      text-align: center;
+      font-size: 3rem;
+      transition: 0.3s ease-in-out;
+}
+.service_tittle h2:hover{
+    color: crimson;
+}
+.service_tittle p{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.card_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    margin: 4rem;
+}
+.card{
+    border: 2px solid gray;
+    padding: 0.5rem;
+    text-align: left;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 25px crimson;
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 0 25px white;
+}
+.card i{
+    font-size: 1.5rem;
+    color: crimson;
+}
+.card h3{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.card p{
+    font-size: 1.25rem;
+    color: grey;
+}
+
 
 
 
